@@ -1,0 +1,6 @@
+ensure python scripts are stored in /home/pi/camera_scripts
+copy the startup scripts to /etc/init.d/
+run the following to get ubuntu to run them on startup:
+
+sudo update-rc.d camera_server.sh defaults
+sudo update-rd.d camera_provider.sh defaults
